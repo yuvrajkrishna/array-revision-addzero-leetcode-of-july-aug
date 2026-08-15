@@ -6,14 +6,14 @@ public class UniqueElement {
         for(int i = 0; i < arr.length ; i++){
             if(arr[i] == target){
                 if(found){
-                    System.out.println("Not Unique");
+                    System.out.println("Target occurs more than once");
                     return;
                 }
                 found = true;
             }
         }
         if(found){
-            System.out.println("Unique Element");
+            System.out.println("Target occurs only once");
         }
         else{
             System.out.println("Target Not Present");
